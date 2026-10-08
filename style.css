@@ -90,4 +90,22 @@ section h2 {
     to {
         transform: translateY(110vh) rotate(360deg);
     }
+}section {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-8px);
+}
+
+h1 {
+    text-shadow: 0 0 20px #ff8bdc;
+}
+
+h2 {
+    color: #ffb6e6;
 }
