@@ -17,10 +17,23 @@ body {
 #intro h1 {
     font-size: 55px;
 }
-
 #portfolio {
     display: none;
     padding: 60px 20px;
+    animation: reveal 1.5s ease;
+}
+
+@keyframes reveal {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 }
 
 #portfolio h1 {
